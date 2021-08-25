@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "./Link";
-function LinkList({links,removeLink,searchLink}){
+function LinkList({links,removeLink}){
 return(
     <ul>
         {links.map(link=>(
@@ -8,7 +8,6 @@ return(
             key={link.id}
             link={link}
             removeLink={removeLink}
-            searchLink={searchLink}
              />
         ))}
     </ul>

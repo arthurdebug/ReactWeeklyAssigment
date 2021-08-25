@@ -1,11 +1,9 @@
 import React from "react";
-function Link({link,removeLink,searchLink}) {
+function Link({link,removeLink}) {
     function removeClicked(){
         removeLink(link.id);
     }
-    function checksearch(){
-        searchLink(link.id)  
-    }
+    
     return(
         <div>
             <a href={link.url}> {link.url} </a>
