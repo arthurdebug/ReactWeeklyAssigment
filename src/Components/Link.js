@@ -7,7 +7,7 @@ function Link({link,removeLink}) {
     return(
         <div className="danger">
             <a href={link.url}> {link.url} </a>
-            <button className="primary" onClick={removeClicked}>Remove</button>
+            <button className="btn btn-primary" onClick={removeClicked}>Remove</button>
         </div>
     )
 }

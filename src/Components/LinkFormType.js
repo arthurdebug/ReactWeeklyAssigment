@@ -28,7 +28,7 @@ return (
         onChange={inputLink}
         />
         
-        <button type="submit">Submit</button>
+        <button className="btn btn-danger" type="submit">Submit</button>
     </form>
 )
 }
