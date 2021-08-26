@@ -43,7 +43,7 @@ function onSearchBarChange(search){
     <div className="App"><SearchBar onSearchChangeProp={onSearchBarChange}/></div>
     <p> Arthur Links</p>
     <LinkFormType addLink={addLink} />
-    <LinkList links={filteredLinks(search)} 
+    <LinkList class="container" links={filteredLinks(search)} 
     removeLink={removeLink}
     />
   </header>
